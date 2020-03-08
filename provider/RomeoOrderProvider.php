@@ -7,6 +7,10 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * Class RomeoOrderProvider
+ * @package App\Providers
+ */
 class RomeoOrderProvider extends ServiceProvider
 {
     /**
