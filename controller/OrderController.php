@@ -20,7 +20,9 @@ class OrderController extends Controller
      */
     public function view()
     {
-        $validatedData = $this->request->validate([]);
+        $validatedData = $this->request->validate([
+            'id' => 'require|integer'
+        ]);
         return $this->getResponse();
     }
 
