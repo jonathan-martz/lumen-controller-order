@@ -1,0 +1,34 @@
+{
+  "name": "romeophp/lumen-controller-order",
+  "description": "Php Lumen Order Controller",
+  "license": "MIT",
+  "require": {
+    "php": "^7.3|^7.4",
+    "jonathan-martz/lumen-controller": "^0.4",
+    "illuminate/validation": "^6.0",
+    "illuminate/support": "^6.0",
+    "illuminate/database": "^6.0",
+    "illuminate/http": "^6.0"
+  },
+  "authors": [
+    {
+      "name": "Jonathan Martz",
+      "email": "composer@jmartz.de",
+      "homepage": "http://www.jmartz.de",
+      "role": "Maintainer"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "controller/",
+      "provider/"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "App\\Providers\\RomeoOrderProvider"
+      ]
+    }
+  }
+}
